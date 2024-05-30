@@ -9,4 +9,5 @@ for i in range(len(fav1)):
     n.append(i+j)
 print(f,'\n',n)
 indx=n.index(min(n))
+print(f[indx],min(n))
 print('Please have',f[indx],'as your favourite dish')
